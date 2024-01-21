@@ -43,8 +43,10 @@ const handldelete=(index)=>{
         })}
       </ul>
       <input ref={inputRef} placeholder='add iteam....'></input>
-      <button onClick={handelclick}>add</button>
+      <button onClick={handelclick}>Add</button>
 
+      </div>
+      <div className='img'>
       </div>
     </div>
   );
