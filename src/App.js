@@ -29,9 +29,7 @@ const handldelete=(index)=>{
   return (
     <div className="App">
       <h2>welcom tudo list</h2>
-      <p>
-        iam so happy to create this app
-      </p>
+      
       <div className='continer'>
         <ul>
         {todos.map(({text,complet },index)=>{
