@@ -1,0 +1,55 @@
+.App{
+  border: 1px solid black;
+  margin: 50px 30px;
+  padding: 25px 15px;
+  /* background-image: url(/public/notebook-blue-wood-table.jpg); */
+  background-size: cover;
+  height: 500px;
+}
+h2{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  margin-bottom: 0;
+
+}
+
+
+.continer{
+  display:flex ;
+  flex-direction: column;
+  
+
+}
+.continer ul{
+  font-size: 20px;
+  border: 1px solid red;
+  border-radius: 15px;
+}
+
+.continer ul li{
+  list-style-type:"✍️";
+  overflow-wrap:break-word;
+  width: 150px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+
+}
+
+.done{
+  text-decoration: line-through;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+
+}
+.trach{
+  cursor: pointer;
+  text-align: center;
+}
