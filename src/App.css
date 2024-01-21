@@ -2,16 +2,34 @@
   border: 1px solid black;
   margin: 50px 30px;
   padding: 25px 15px;
-  /* background-image: url(/public/notebook-blue-wood-table.jpg); */
+  background-color: #ffcdcc;
   background-size: cover;
-  height: 500px;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+
 }
 h2{
   text-align: center;
   font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
   font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
   margin-bottom: 0;
+  color:#5d2c26;
+  background-color: #fffbfa;
+  border-radius: 15px;
+ 
+
+}
+p{
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  margin-bottom: 0;
+  color:#5d2c26;
+  background-color: #fffbfa;
+  border-radius: 15px;
+
 
 }
 
@@ -24,7 +42,7 @@ h2{
 }
 .continer ul{
   font-size: 20px;
-  border: 1px solid red;
+  border: 1px solid black;
   border-radius: 15px;
 }
 
@@ -38,14 +56,32 @@ h2{
 
 }
 
+input{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: #ffd1e3;
+    color: #5d2c26;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
 .done{
   text-decoration: line-through;
 }
 
 .item{
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px
 
 
 }
@@ -53,3 +89,4 @@ h2{
   cursor: pointer;
   text-align: center;
 }
+
